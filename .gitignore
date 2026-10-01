@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# dataset and download leftovers (not redistributed)
+data/
+data_bundle.*
+zicZMBnY
+# checkpoints are large; only the final one is tracked (see README)
+checkpoints/*
+!checkpoints/README.md

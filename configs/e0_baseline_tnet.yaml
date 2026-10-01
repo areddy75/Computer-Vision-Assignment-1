@@ -1,0 +1,10 @@
+# Starter baseline reproduced through the new pipeline: grayscale 64x64, TNet, Adam 2e-3, 20 epochs.
+name: e0_baseline_tnet
+data: {img_size: 64, channels: 1, augment: none, val_fraction: 0.2, split_seed: 0}
+model: {name: tnet}
+train:
+  epochs: 20
+  batch_size: 64
+  seed: 0
+  optimizer: {name: adam, lr: 0.002, weight_decay: 0.0}
+  schedule: constant

@@ -1,0 +1,11 @@
+# Same as e1 + strong augmentation (RandomResizedCrop, flip, brightness/contrast jitter, small rotation).
+name: e2_scenecnn_aug
+data: {img_size: 128, channels: 3, augment: strong, val_fraction: 0.2, split_seed: 0}
+model: {name: scenecnn, width: 32, dropout: 0.3}
+train:
+  epochs: 60
+  batch_size: 32
+  seed: 0
+  optimizer: {name: adamw, lr: 0.001, weight_decay: 0.05}
+  schedule: cosine
+  warmup_epochs: 2
