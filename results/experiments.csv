@@ -5,3 +5,5 @@ e2_scenecnn_aug,scenecnn,False,128,strong,60,0,1177328,0.8729,59,0.8708,0.8687,0
 e3_resnet18_scratch,resnet18,False,224,strong,60,0,11184720,0.8667,55,0.8625,0.8646,0.9437,19.8
 e4_resnet18_pretrained,resnet18,True,224,strong,30,0,11184720,0.925,28,0.9187,0.9229,0.9932,56.2
 e5_r18_labelsmooth,resnet18,True,224,strong,30,0,11184720,0.9479,22,0.9396,0.9354,0.9979,12.0
+e6_r18_mixcut,resnet18,True,224,strong,30,0,11184720,0.9292,16,0.9208,0.9354,0.7531,8.8
+e7_r18_linearprobe,resnet18,True,224,strong,30,0,8208,0.8854,13,0.8771,0.8771,0.8677,4.0

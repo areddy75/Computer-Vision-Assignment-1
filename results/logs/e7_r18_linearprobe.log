@@ -1,0 +1,32 @@
+[e7_r18_linearprobe] device=mps train=1920 val=480 params=8,208
+epoch 001/30 | train loss 2.3168 acc 0.3083 | val loss 1.2769 acc 0.6042 | 17s
+epoch 002/30 | train loss 1.4380 acc 0.6625 | val loss 0.6978 acc 0.7771 | 23s
+epoch 003/30 | train loss 1.2745 acc 0.7375 | val loss 0.5833 acc 0.8271 | 31s
+epoch 004/30 | train loss 1.1819 acc 0.7661 | val loss 0.5099 acc 0.8438 | 39s
+epoch 005/30 | train loss 1.1859 acc 0.7719 | val loss 0.5222 acc 0.8625 | 45s
+epoch 006/30 | train loss 1.1421 acc 0.8021 | val loss 0.4773 acc 0.8562 | 52s
+epoch 007/30 | train loss 1.1375 acc 0.7953 | val loss 0.5460 acc 0.8375 | 59s
+epoch 008/30 | train loss 1.1576 acc 0.7974 | val loss 0.5138 acc 0.8375 | 67s
+epoch 009/30 | train loss 1.1111 acc 0.8161 | val loss 0.4795 acc 0.8667 | 74s
+epoch 010/30 | train loss 1.0914 acc 0.8208 | val loss 0.5072 acc 0.8396 | 82s
+epoch 011/30 | train loss 1.0786 acc 0.8177 | val loss 0.5222 acc 0.8188 | 89s
+epoch 012/30 | train loss 1.0698 acc 0.8271 | val loss 0.4581 acc 0.8583 | 97s
+epoch 013/30 | train loss 1.0637 acc 0.8365 | val loss 0.4459 acc 0.8854 | 105s
+epoch 014/30 | train loss 1.0483 acc 0.8349 | val loss 0.4806 acc 0.8562 | 113s
+epoch 015/30 | train loss 1.0531 acc 0.8349 | val loss 0.4554 acc 0.8813 | 120s
+epoch 016/30 | train loss 1.0290 acc 0.8474 | val loss 0.4721 acc 0.8417 | 128s
+epoch 017/30 | train loss 1.0302 acc 0.8427 | val loss 0.4706 acc 0.8375 | 136s
+epoch 018/30 | train loss 1.0609 acc 0.8307 | val loss 0.4658 acc 0.8646 | 144s
+epoch 019/30 | train loss 1.0270 acc 0.8443 | val loss 0.4513 acc 0.8667 | 152s
+epoch 020/30 | train loss 1.0368 acc 0.8474 | val loss 0.4381 acc 0.8687 | 160s
+epoch 021/30 | train loss 1.0235 acc 0.8531 | val loss 0.4417 acc 0.8625 | 167s
+epoch 022/30 | train loss 1.0045 acc 0.8578 | val loss 0.4441 acc 0.8750 | 175s
+epoch 023/30 | train loss 1.0030 acc 0.8641 | val loss 0.4239 acc 0.8708 | 183s
+epoch 024/30 | train loss 0.9941 acc 0.8594 | val loss 0.4345 acc 0.8771 | 191s
+epoch 025/30 | train loss 0.9953 acc 0.8656 | val loss 0.4380 acc 0.8750 | 199s
+epoch 026/30 | train loss 0.9766 acc 0.8714 | val loss 0.4268 acc 0.8792 | 206s
+epoch 027/30 | train loss 0.9758 acc 0.8677 | val loss 0.4268 acc 0.8771 | 214s
+epoch 028/30 | train loss 0.9812 acc 0.8698 | val loss 0.4217 acc 0.8792 | 222s
+epoch 029/30 | train loss 1.0146 acc 0.8443 | val loss 0.4251 acc 0.8750 | 230s
+epoch 030/30 | train loss 0.9951 acc 0.8677 | val loss 0.4275 acc 0.8771 | 237s
+[e7_r18_linearprobe] best val acc 0.8854 @ epoch 13 | final 0.8771 | TTA 0.8771 | 4.0 min
