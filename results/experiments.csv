@@ -1,2 +1,3 @@
 run,model,pretrained,img_size,augment,epochs,seed,params,best_val_acc,best_epoch,final_val_acc,val_acc_tta,final_train_acc,train_time_min
 e0_baseline_tnet,tnet,False,64,none,20,0,57776,0.4396,15,0.4167,0.4542,0.9917,0.5
+e1_scenecnn_bench,scenecnn,False,128,none,2,0,1177328,0.3688,1,0.25,0.3646,0.4406,1.0

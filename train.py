@@ -7,6 +7,7 @@ Writes checkpoints/<run>.pt, results/runs/<run>.json and appends a row to result
 The test set is NOT touched here; use evaluate.py for the final test evaluation.
 """
 import argparse
+import functools
 import csv
 import json
 import time
@@ -61,14 +62,16 @@ def main():
         persistent_workers=nw > 0, drop_last=True)
     val_loader = make_loader(val_ds, 64, False, nw)
 
-    model = build_model(cfg["model"], len(classes)).to(memory_format=torch.channels_last)
+    # NB: channels_last was 2-3x slower on MPS (scripts/bench.py), so the default layout is used.
+    model = build_model(cfg["model"], len(classes))
     n_params = count_params(model)
     print(f"[{run}] device={device} train={len(train_ds)} val={len(val_ds)} params={n_params:,}")
     head = None if cfg["model"]["name"] in ("tnet", "scenecnn") else head_parameters(model, cfg["model"]["name"])
 
     t0 = time.time()
     model, hist, best, final = train(model, train_loader, val_loader, cfg["train"], device,
-                                     len(classes), head_params=head)
+                                     len(classes), head_params=head,
+                                     log=functools.partial(print, flush=True))
     train_time = time.time() - t0
     _, val_acc_tta = evaluate(model, val_loader, device, tta=True)
 

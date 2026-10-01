@@ -1,0 +1,1 @@
+[e1_scenecnn] device=mps train=1920 val=480 params=1,177,328

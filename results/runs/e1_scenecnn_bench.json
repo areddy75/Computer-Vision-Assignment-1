@@ -1,0 +1,89 @@
+{
+ "run": "e1_scenecnn_bench",
+ "config": {
+  "name": "e1_scenecnn",
+  "data": {
+   "img_size": 128,
+   "channels": 3,
+   "augment": "none",
+   "val_fraction": 0.2,
+   "split_seed": 0
+  },
+  "model": {
+   "name": "scenecnn",
+   "width": 32,
+   "dropout": 0.3
+  },
+  "train": {
+   "epochs": 2,
+   "batch_size": 32,
+   "seed": 0,
+   "optimizer": {
+    "name": "adamw",
+    "lr": 0.001,
+    "weight_decay": 0.05
+   },
+   "schedule": "cosine",
+   "warmup_epochs": 2
+  }
+ },
+ "classes": [
+  "Bedroom",
+  "Coast",
+  "Flower",
+  "Forest",
+  "Highway",
+  "Industrial",
+  "InsideCity",
+  "Kitchen",
+  "LivingRoom",
+  "Mountain",
+  "Office",
+  "OpenCountry",
+  "Store",
+  "Street",
+  "Suburb",
+  "TallBuilding"
+ ],
+ "params": 1177328,
+ "best": {
+  "val_acc": 0.3687500059604645,
+  "val_loss": 1.8994109630584717,
+  "epoch": 1
+ },
+ "final_epoch": {
+  "val_acc": 0.25,
+  "val_loss": 2.488795280456543,
+  "epoch": 2
+ },
+ "val_acc_tta": 0.3645833432674408,
+ "train_time_s": 58.09519100189209,
+ "history": {
+  "train_loss": [
+   2.334696819384893,
+   1.7807986120382944
+  ],
+  "train_acc": [
+   0.25104166666666666,
+   0.440625
+  ],
+  "val_loss": [
+   1.8994109630584717,
+   2.488795280456543
+  ],
+  "val_acc": [
+   0.3687500059604645,
+   0.25
+  ],
+  "lr": [
+   0.0005,
+   0.001
+  ],
+  "time": [
+   31.98463487625122,
+   57.828917026519775
+  ]
+ },
+ "torch": "2.14.1",
+ "device": "mps"
+}
