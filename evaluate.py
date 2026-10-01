@@ -61,6 +61,8 @@ def main():
     ap.add_argument("--tta", action="store_true", help="average predictions with horizontal flip")
     ap.add_argument("--predict-dir", help="folder of unlabelled images to predict")
     ap.add_argument("--out-dir", default=str(ROOT / "results/eval"))
+    ap.add_argument("--splits", nargs="+", default=["val", "test"], choices=["val", "test"],
+                    help="use --splits val to analyse non-final models without touching the test set")
     args = ap.parse_args()
 
     device = get_device()
@@ -74,6 +76,8 @@ def main():
 
     report = {"checkpoint": args.checkpoint, "tta": args.tta}
     for split, ds in [("val", val_ds), ("test", test_ds)]:
+        if split not in args.splits:
+            continue
         probs, labels = predict(model, make_loader(ds, 64, False, 2), device, tta=args.tta)
         pred = probs.argmax(1).numpy()
         labels = labels.numpy()
@@ -83,11 +87,10 @@ def main():
         report[split] = {"acc": acc, "n": int(len(labels)), "per_class_acc": per_class,
                          "confusion_matrix": cm.tolist()}
         print(f"{split}: accuracy {acc:.4f} ({(pred == labels).sum()}/{len(labels)})")
-        if split == "test":
-            for c, a in sorted(per_class.items(), key=lambda kv: kv[1]):
-                print(f"   {c:<13s} {a:.3f}")
-            plot_confusion(cm, classes, out_dir / f"{name}_test_confusion.png",
-                           f"{name} - test acc {acc:.3f}")
+        for c, a in sorted(per_class.items(), key=lambda kv: kv[1])[:6]:
+            print(f"   {c:<13s} {a:.3f}")
+        plot_confusion(cm, classes, out_dir / f"{name}_{split}_confusion.png",
+                       f"{name} - {split} acc {acc:.3f}")
 
     if args.predict_dir:
         paths = sorted(Path(args.predict_dir).glob("*.jpg"),
@@ -102,7 +105,7 @@ def main():
                 w.writerow([p.name, classes[int(pr.argmax())], f"{float(pr.max()):.4f}"])
         print(f"wrote {len(paths)} predictions to {csv_path}")
 
-    json.dump(report, open(out_dir / f"{name}_report.json", "w"), indent=1)
+    json.dump(report, open(out_dir / f"{name}_{'_'.join(args.splits)}_report.json", "w"), indent=1)
 
 
 if __name__ == "__main__":
