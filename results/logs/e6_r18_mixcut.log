@@ -1,0 +1,15 @@
+[e6_r18_mixcut] device=mps train=1920 val=480 params=11,184,720
+epoch 001/30 | train loss 1.9855 acc 0.4578 | val loss 0.6151 acc 0.8042 | 24s
+epoch 002/30 | train loss 1.3067 acc 0.6807 | val loss 0.5987 acc 0.8271 | 40s
+epoch 003/30 | train loss 1.2227 acc 0.7458 | val loss 0.4678 acc 0.8708 | 56s
+epoch 004/30 | train loss 1.2466 acc 0.6755 | val loss 0.6905 acc 0.8271 | 72s
+epoch 005/30 | train loss 1.1414 acc 0.7380 | val loss 0.4426 acc 0.8917 | 88s
+epoch 006/30 | train loss 1.0754 acc 0.7521 | val loss 0.4895 acc 0.8854 | 103s
+epoch 007/30 | train loss 1.1095 acc 0.7521 | val loss 0.5113 acc 0.8792 | 119s
+epoch 008/30 | train loss 1.0681 acc 0.7880 | val loss 0.5000 acc 0.8792 | 135s
+epoch 009/30 | train loss 0.9978 acc 0.7682 | val loss 0.4247 acc 0.9167 | 151s
+epoch 010/30 | train loss 0.9639 acc 0.8047 | val loss 0.4536 acc 0.8854 | 167s
+epoch 011/30 | train loss 1.0253 acc 0.8151 | val loss 0.4569 acc 0.8896 | 182s
+epoch 012/30 | train loss 0.9830 acc 0.7688 | val loss 0.3897 acc 0.9146 | 198s
+epoch 013/30 | train loss 1.0052 acc 0.8161 | val loss 0.4189 acc 0.9125 | 214s
+epoch 014/30 | train loss 0.9049 acc 0.7604 | val loss 0.4625 acc 0.8938 | 230s

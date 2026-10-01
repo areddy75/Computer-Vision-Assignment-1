@@ -1,3 +1,7 @@
 run,model,pretrained,img_size,augment,epochs,seed,params,best_val_acc,best_epoch,final_val_acc,val_acc_tta,final_train_acc,train_time_min
 e0_baseline_tnet,tnet,False,64,none,20,0,57776,0.4396,15,0.4167,0.4542,0.9917,0.5
-e1_scenecnn_bench,scenecnn,False,128,none,2,0,1177328,0.3688,1,0.25,0.3646,0.4406,1.0
+e1_scenecnn,scenecnn,False,128,none,60,0,1177328,0.8771,40,0.8729,0.8771,1.0,9.4
+e2_scenecnn_aug,scenecnn,False,128,strong,60,0,1177328,0.8729,59,0.8708,0.8687,0.8953,9.7
+e3_resnet18_scratch,resnet18,False,224,strong,60,0,11184720,0.8667,55,0.8625,0.8646,0.9437,19.8
+e4_resnet18_pretrained,resnet18,True,224,strong,30,0,11184720,0.925,28,0.9187,0.9229,0.9932,56.2
+e5_r18_labelsmooth,resnet18,True,224,strong,30,0,11184720,0.9479,22,0.9396,0.9354,0.9979,12.0

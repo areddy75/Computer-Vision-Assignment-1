@@ -1,0 +1,11 @@
+# e2 (strong aug) trained 150 instead of 60 epochs. Follow-up: e2 was still improving at its last epoch.
+name: e2c_scenecnn_aug_long
+data: {img_size: 128, channels: 3, augment: strong, val_fraction: 0.2, split_seed: 0}
+model: {name: scenecnn, width: 32, dropout: 0.3}
+train:
+  epochs: 150
+  batch_size: 32
+  seed: 0
+  optimizer: {name: adamw, lr: 0.001, weight_decay: 0.05}
+  schedule: cosine
+  warmup_epochs: 2

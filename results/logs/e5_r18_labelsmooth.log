@@ -1,0 +1,32 @@
+[e5_r18_labelsmooth] device=mps train=1920 val=480 params=11,184,720
+epoch 001/30 | train loss 1.7939 acc 0.5411 | val loss 0.7721 acc 0.7292 | 33s
+epoch 002/30 | train loss 1.0659 acc 0.8109 | val loss 0.5784 acc 0.8208 | 58s
+epoch 003/30 | train loss 0.9692 acc 0.8682 | val loss 0.4596 acc 0.8646 | 84s
+epoch 004/30 | train loss 0.8963 acc 0.8964 | val loss 0.5201 acc 0.8479 | 109s
+epoch 005/30 | train loss 0.8253 acc 0.9146 | val loss 0.4835 acc 0.8667 | 136s
+epoch 006/30 | train loss 0.7873 acc 0.9411 | val loss 0.4343 acc 0.8896 | 162s
+epoch 007/30 | train loss 0.7814 acc 0.9380 | val loss 0.4423 acc 0.8833 | 187s
+epoch 008/30 | train loss 0.7606 acc 0.9505 | val loss 0.4513 acc 0.8875 | 212s
+epoch 009/30 | train loss 0.7377 acc 0.9583 | val loss 0.3728 acc 0.9229 | 237s
+epoch 010/30 | train loss 0.7076 acc 0.9693 | val loss 0.3870 acc 0.9104 | 263s
+epoch 011/30 | train loss 0.6971 acc 0.9745 | val loss 0.4137 acc 0.9021 | 290s
+epoch 012/30 | train loss 0.6957 acc 0.9724 | val loss 0.3698 acc 0.9292 | 319s
+epoch 013/30 | train loss 0.6684 acc 0.9854 | val loss 0.3942 acc 0.8958 | 346s
+epoch 014/30 | train loss 0.6545 acc 0.9880 | val loss 0.3720 acc 0.9125 | 374s
+epoch 015/30 | train loss 0.6535 acc 0.9885 | val loss 0.3475 acc 0.9271 | 404s
+epoch 016/30 | train loss 0.6428 acc 0.9901 | val loss 0.3595 acc 0.9271 | 430s
+epoch 017/30 | train loss 0.6386 acc 0.9917 | val loss 0.3776 acc 0.9208 | 457s
+epoch 018/30 | train loss 0.6334 acc 0.9922 | val loss 0.3501 acc 0.9333 | 482s
+epoch 019/30 | train loss 0.6272 acc 0.9953 | val loss 0.3624 acc 0.9396 | 509s
+epoch 020/30 | train loss 0.6358 acc 0.9911 | val loss 0.3666 acc 0.9292 | 535s
+epoch 021/30 | train loss 0.6234 acc 0.9964 | val loss 0.3537 acc 0.9375 | 560s
+epoch 022/30 | train loss 0.6212 acc 0.9953 | val loss 0.3568 acc 0.9479 | 585s
+epoch 023/30 | train loss 0.6138 acc 0.9974 | val loss 0.3700 acc 0.9312 | 611s
+epoch 024/30 | train loss 0.6167 acc 0.9958 | val loss 0.3713 acc 0.9417 | 630s
+epoch 025/30 | train loss 0.6132 acc 0.9990 | val loss 0.3646 acc 0.9396 | 646s
+epoch 026/30 | train loss 0.6069 acc 0.9979 | val loss 0.3626 acc 0.9354 | 661s
+epoch 027/30 | train loss 0.6089 acc 0.9964 | val loss 0.3705 acc 0.9375 | 676s
+epoch 028/30 | train loss 0.6165 acc 0.9943 | val loss 0.3584 acc 0.9354 | 691s
+epoch 029/30 | train loss 0.6109 acc 0.9979 | val loss 0.3606 acc 0.9458 | 707s
+epoch 030/30 | train loss 0.6112 acc 0.9979 | val loss 0.3666 acc 0.9396 | 722s
+[e5_r18_labelsmooth] best val acc 0.9479 @ epoch 22 | final 0.9396 | TTA 0.9354 | 12.0 min

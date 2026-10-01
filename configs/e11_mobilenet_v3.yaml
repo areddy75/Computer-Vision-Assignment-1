@@ -1,0 +1,12 @@
+# Architecture: MobileNetV3-Large (ImageNet-1k, 4.2M params), same recipe as e5.
+name: e11_mobilenet_v3
+data: {img_size: 224, channels: 3, augment: strong, val_fraction: 0.2, split_seed: 0}
+model: {name: mobilenet_v3_large, pretrained: true, dropout: 0.0}
+train:
+  epochs: 30
+  batch_size: 32
+  seed: 0
+  optimizer: {name: adamw, lr: 0.0003, weight_decay: 0.05}
+  schedule: cosine
+  warmup_epochs: 1
+  label_smoothing: 0.1

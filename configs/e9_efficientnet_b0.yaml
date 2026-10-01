@@ -1,0 +1,12 @@
+# Architecture: EfficientNet-B0 (ImageNet-1k, 4.0M params), same recipe as e5.
+name: e9_efficientnet_b0
+data: {img_size: 224, channels: 3, augment: strong, val_fraction: 0.2, split_seed: 0}
+model: {name: efficientnet_b0, pretrained: true, dropout: 0.0}
+train:
+  epochs: 30
+  batch_size: 32
+  seed: 0
+  optimizer: {name: adamw, lr: 0.0003, weight_decay: 0.05}
+  schedule: cosine
+  warmup_epochs: 1
+  label_smoothing: 0.1
