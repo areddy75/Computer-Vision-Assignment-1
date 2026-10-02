@@ -19,3 +19,8 @@ e5_r18_labelsmooth_seed2,resnet18,True,224,strong,30,2,11184720,0.9479,22,0.9438
 e2c_scenecnn_aug_long,scenecnn,False,128,strong,150,0,1177328,0.8813,112,0.8708,0.875,0.9734,20.6
 e12_r18_res160,resnet18,True,160,strong,30,0,11184720,0.9229,28,0.9187,0.9354,0.9953,4.8
 e13_r18_res288,resnet18,True,288,strong,30,0,11184720,0.9583,24,0.95,0.9521,0.9979,15.4
+e8b_convnext_tiny_lr1e-4,convnext_tiny,True,224,strong,30,0,27832432,0.9604,26,0.9583,0.9604,0.9984,40.1
+e10_resnet50_seed1,resnet50,True,224,strong,30,1,23540816,0.9521,20,0.9438,0.95,0.9964,26.5
+e9_efficientnet_b0_seed1,efficientnet_b0,True,224,strong,30,1,4028044,0.9458,17,0.9375,0.9521,0.9938,16.3
+e2d_scenecnn_aug_mildcrop,scenecnn,False,128,strong,60,0,1177328,0.8875,54,0.8833,0.8854,0.9651,8.0
+e5b_r18_lightaug,resnet18,True,224,light,30,0,11184720,0.9542,21,0.9458,0.95,1.0,8.8
