@@ -11,8 +11,6 @@ import csv
 import json
 from pathlib import Path
 
-import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import torch
@@ -109,4 +107,5 @@ def main():
 
 
 if __name__ == "__main__":
+    plt.switch_backend("Agg")  # headless when run as a script; importing this module keeps the caller's backend
     main()
