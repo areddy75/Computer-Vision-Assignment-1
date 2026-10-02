@@ -24,3 +24,5 @@ e10_resnet50_seed1,resnet50,True,224,strong,30,1,23540816,0.9521,20,0.9438,0.95,
 e9_efficientnet_b0_seed1,efficientnet_b0,True,224,strong,30,1,4028044,0.9458,17,0.9375,0.9521,0.9938,16.3
 e2d_scenecnn_aug_mildcrop,scenecnn,False,128,strong,60,0,1177328,0.8875,54,0.8833,0.8854,0.9651,8.0
 e5b_r18_lightaug,resnet18,True,224,light,30,0,11184720,0.9542,21,0.9458,0.95,1.0,8.8
+e15_effb0_res288,efficientnet_b0,True,288,strong,30,0,4028044,0.9604,13,0.9479,0.9625,0.9953,26.9
+e14_r50_res288,resnet50,True,288,strong,30,0,23540816,0.9646,26,0.9646,0.9604,0.9969,42.8
