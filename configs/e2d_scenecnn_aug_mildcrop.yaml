@@ -1,0 +1,12 @@
+# e2 but RandomResizedCrop min scale 0.35 -> 0.8. Tests whether e2's aggressive crops (losing global scene layout) caused the failure.
+name: e2d_scenecnn_aug_mildcrop
+data: {img_size: 128, channels: 3, augment: strong, val_fraction: 0.2, split_seed: 0,
+  crop_scale_min: 0.8}
+model: {name: scenecnn, width: 32, dropout: 0.3}
+train:
+  epochs: 60
+  batch_size: 32
+  seed: 0
+  optimizer: {name: adamw, lr: 0.001, weight_decay: 0.05}
+  schedule: cosine
+  warmup_epochs: 2

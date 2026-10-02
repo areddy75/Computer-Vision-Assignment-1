@@ -29,3 +29,4 @@ epoch 027/30 | train loss 0.6053 acc 0.9995 | val loss 0.3604 acc 0.9417 | 493s
 epoch 028/30 | train loss 0.6065 acc 0.9979 | val loss 0.3653 acc 0.9396 | 512s
 epoch 029/30 | train loss 0.6118 acc 0.9958 | val loss 0.3620 acc 0.9458 | 531s
 epoch 030/30 | train loss 0.6117 acc 0.9969 | val loss 0.3592 acc 0.9438 | 550s
+[e5_r18_labelsmooth_seed2] best val acc 0.9479 @ epoch 22 | final 0.9438 | TTA 0.9563 | 9.2 min

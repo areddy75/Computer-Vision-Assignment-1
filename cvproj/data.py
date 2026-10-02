@@ -62,7 +62,7 @@ def build_transforms(cfg, train: bool):
               transforms.RandomCrop(size, padding=size // 16, padding_mode="reflect"),
               transforms.RandomHorizontalFlip()]
     elif aug == "strong":
-        t += [transforms.RandomResizedCrop(size, scale=(0.35, 1.0), ratio=(3 / 4, 4 / 3)),
+        t += [transforms.RandomResizedCrop(size, scale=(cfg.get("crop_scale_min", 0.35), 1.0), ratio=(3 / 4, 4 / 3)),
               transforms.RandomHorizontalFlip(),
               transforms.RandomApply([transforms.ColorJitter(0.4, 0.4)], p=0.8),
               transforms.RandomRotation(10)]
