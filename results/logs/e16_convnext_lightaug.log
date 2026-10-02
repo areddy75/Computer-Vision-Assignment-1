@@ -1,0 +1,32 @@
+[e16_convnext_lightaug] device=mps train=1920 val=480 params=27,832,432
+epoch 001/30 | train loss 2.0052 acc 0.5411 | val loss 0.6420 acc 0.8708 | 82s
+epoch 002/30 | train loss 0.7807 acc 0.9453 | val loss 0.2705 acc 0.9458 | 161s
+epoch 003/30 | train loss 0.6525 acc 0.9823 | val loss 0.2536 acc 0.9417 | 240s
+epoch 004/30 | train loss 0.6153 acc 0.9911 | val loss 0.2540 acc 0.9479 | 320s
+epoch 005/30 | train loss 0.6035 acc 0.9917 | val loss 0.2380 acc 0.9479 | 399s
+epoch 006/30 | train loss 0.5845 acc 0.9995 | val loss 0.2261 acc 0.9563 | 479s
+epoch 007/30 | train loss 0.5772 acc 1.0000 | val loss 0.2228 acc 0.9500 | 558s
+epoch 008/30 | train loss 0.5750 acc 1.0000 | val loss 0.2281 acc 0.9542 | 637s
+epoch 009/30 | train loss 0.5757 acc 0.9995 | val loss 0.2233 acc 0.9542 | 717s
+epoch 010/30 | train loss 0.5742 acc 0.9990 | val loss 0.2398 acc 0.9563 | 796s
+epoch 011/30 | train loss 0.5812 acc 0.9964 | val loss 0.2474 acc 0.9396 | 874s
+epoch 012/30 | train loss 0.5752 acc 0.9995 | val loss 0.2213 acc 0.9500 | 953s
+epoch 013/30 | train loss 0.5770 acc 0.9979 | val loss 0.2183 acc 0.9563 | 1032s
+epoch 014/30 | train loss 0.5722 acc 0.9990 | val loss 0.2378 acc 0.9479 | 1111s
+epoch 015/30 | train loss 0.5835 acc 0.9958 | val loss 0.2158 acc 0.9625 | 1190s
+epoch 016/30 | train loss 0.5713 acc 0.9995 | val loss 0.2004 acc 0.9667 | 1269s
+epoch 017/30 | train loss 0.5708 acc 0.9995 | val loss 0.2131 acc 0.9563 | 1348s
+epoch 018/30 | train loss 0.5691 acc 1.0000 | val loss 0.2125 acc 0.9604 | 1427s
+epoch 019/30 | train loss 0.5687 acc 1.0000 | val loss 0.2099 acc 0.9625 | 1506s
+epoch 020/30 | train loss 0.5685 acc 1.0000 | val loss 0.2141 acc 0.9625 | 1584s
+epoch 021/30 | train loss 0.5689 acc 1.0000 | val loss 0.2144 acc 0.9625 | 1663s
+epoch 022/30 | train loss 0.5680 acc 1.0000 | val loss 0.2163 acc 0.9646 | 1742s
+epoch 023/30 | train loss 0.5682 acc 1.0000 | val loss 0.2141 acc 0.9583 | 1821s
+epoch 024/30 | train loss 0.5683 acc 1.0000 | val loss 0.2150 acc 0.9646 | 1900s
+epoch 025/30 | train loss 0.5679 acc 1.0000 | val loss 0.2139 acc 0.9646 | 1979s
+epoch 026/30 | train loss 0.5679 acc 1.0000 | val loss 0.2140 acc 0.9646 | 2057s
+epoch 027/30 | train loss 0.5681 acc 1.0000 | val loss 0.2142 acc 0.9646 | 2136s
+epoch 028/30 | train loss 0.5678 acc 1.0000 | val loss 0.2143 acc 0.9625 | 2215s
+epoch 029/30 | train loss 0.5680 acc 1.0000 | val loss 0.2143 acc 0.9625 | 2293s
+epoch 030/30 | train loss 0.5681 acc 1.0000 | val loss 0.2143 acc 0.9604 | 2372s
+[e16_convnext_lightaug] best val acc 0.9667 @ epoch 16 | final 0.9604 | TTA 0.9646 | 39.5 min

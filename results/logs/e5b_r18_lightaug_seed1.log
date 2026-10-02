@@ -1,0 +1,32 @@
+[e5b_r18_lightaug_seed1] device=mps train=1920 val=480 params=11,184,720
+epoch 001/30 | train loss 1.6008 acc 0.6260 | val loss 0.6333 acc 0.8250 | 22s
+epoch 002/30 | train loss 0.8399 acc 0.9167 | val loss 0.4806 acc 0.8438 | 36s
+epoch 003/30 | train loss 0.7449 acc 0.9609 | val loss 0.3987 acc 0.9250 | 51s
+epoch 004/30 | train loss 0.6854 acc 0.9823 | val loss 0.3571 acc 0.9167 | 66s
+epoch 005/30 | train loss 0.6605 acc 0.9875 | val loss 0.3672 acc 0.9229 | 81s
+epoch 006/30 | train loss 0.6450 acc 0.9922 | val loss 0.3694 acc 0.9083 | 97s
+epoch 007/30 | train loss 0.6371 acc 0.9938 | val loss 0.3501 acc 0.9333 | 114s
+epoch 008/30 | train loss 0.6253 acc 0.9974 | val loss 0.3552 acc 0.9312 | 132s
+epoch 009/30 | train loss 0.6190 acc 0.9943 | val loss 0.3578 acc 0.9187 | 149s
+epoch 010/30 | train loss 0.6234 acc 0.9932 | val loss 0.3556 acc 0.9271 | 168s
+epoch 011/30 | train loss 0.6128 acc 0.9984 | val loss 0.3332 acc 0.9312 | 186s
+epoch 012/30 | train loss 0.6009 acc 0.9990 | val loss 0.3116 acc 0.9417 | 204s
+epoch 013/30 | train loss 0.5970 acc 1.0000 | val loss 0.3295 acc 0.9396 | 222s
+epoch 014/30 | train loss 0.5906 acc 1.0000 | val loss 0.3314 acc 0.9396 | 240s
+epoch 015/30 | train loss 0.5879 acc 1.0000 | val loss 0.3217 acc 0.9458 | 258s
+epoch 016/30 | train loss 0.5863 acc 1.0000 | val loss 0.3218 acc 0.9479 | 276s
+epoch 017/30 | train loss 0.5844 acc 1.0000 | val loss 0.3151 acc 0.9500 | 294s
+epoch 018/30 | train loss 0.5829 acc 1.0000 | val loss 0.3221 acc 0.9458 | 312s
+epoch 019/30 | train loss 0.5820 acc 1.0000 | val loss 0.3206 acc 0.9396 | 330s
+epoch 020/30 | train loss 0.5824 acc 1.0000 | val loss 0.3215 acc 0.9479 | 348s
+epoch 021/30 | train loss 0.5816 acc 1.0000 | val loss 0.3284 acc 0.9396 | 367s
+epoch 022/30 | train loss 0.5805 acc 1.0000 | val loss 0.3203 acc 0.9479 | 385s
+epoch 023/30 | train loss 0.5811 acc 1.0000 | val loss 0.3100 acc 0.9542 | 403s
+epoch 024/30 | train loss 0.5784 acc 1.0000 | val loss 0.3194 acc 0.9479 | 421s
+epoch 025/30 | train loss 0.5787 acc 1.0000 | val loss 0.3185 acc 0.9479 | 439s
+epoch 026/30 | train loss 0.5777 acc 1.0000 | val loss 0.3187 acc 0.9521 | 457s
+epoch 027/30 | train loss 0.5784 acc 1.0000 | val loss 0.3162 acc 0.9500 | 475s
+epoch 028/30 | train loss 0.5780 acc 1.0000 | val loss 0.3184 acc 0.9500 | 493s
+epoch 029/30 | train loss 0.5774 acc 1.0000 | val loss 0.3195 acc 0.9521 | 511s
+epoch 030/30 | train loss 0.5782 acc 1.0000 | val loss 0.3147 acc 0.9500 | 529s
+[e5b_r18_lightaug_seed1] best val acc 0.9542 @ epoch 23 | final 0.9500 | TTA 0.9500 | 8.8 min

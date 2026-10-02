@@ -10,3 +10,4 @@ zicZMBnY
 # checkpoints are large; only the final one is tracked (see README)
 checkpoints/*
 !checkpoints/README.md
+!checkpoints/final_convnext_tiny_fp16.pt
