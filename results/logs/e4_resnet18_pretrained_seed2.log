@@ -1,0 +1,32 @@
+[e4_resnet18_pretrained_seed2] device=mps train=1920 val=480 params=11,184,720
+epoch 001/30 | train loss 1.5881 acc 0.5203 | val loss 0.5731 acc 0.7812 | 22s
+epoch 002/30 | train loss 0.6000 acc 0.8021 | val loss 0.5258 acc 0.8354 | 37s
+epoch 003/30 | train loss 0.4413 acc 0.8599 | val loss 0.4120 acc 0.8625 | 52s
+epoch 004/30 | train loss 0.3719 acc 0.8839 | val loss 0.4129 acc 0.8729 | 67s
+epoch 005/30 | train loss 0.2895 acc 0.9083 | val loss 0.4134 acc 0.8750 | 82s
+epoch 006/30 | train loss 0.2429 acc 0.9224 | val loss 0.3483 acc 0.8917 | 97s
+epoch 007/30 | train loss 0.2284 acc 0.9172 | val loss 0.2898 acc 0.8958 | 113s
+epoch 008/30 | train loss 0.1758 acc 0.9443 | val loss 0.3778 acc 0.8917 | 131s
+epoch 009/30 | train loss 0.2107 acc 0.9313 | val loss 0.3811 acc 0.8625 | 149s
+epoch 010/30 | train loss 0.1806 acc 0.9385 | val loss 0.6561 acc 0.8125 | 168s
+epoch 011/30 | train loss 0.1469 acc 0.9552 | val loss 0.3662 acc 0.9021 | 187s
+epoch 012/30 | train loss 0.1331 acc 0.9583 | val loss 0.3202 acc 0.9083 | 206s
+epoch 013/30 | train loss 0.1142 acc 0.9677 | val loss 0.3071 acc 0.9167 | 226s
+epoch 014/30 | train loss 0.0956 acc 0.9693 | val loss 0.3873 acc 0.8813 | 245s
+epoch 015/30 | train loss 0.1195 acc 0.9651 | val loss 0.3361 acc 0.9062 | 264s
+epoch 016/30 | train loss 0.0853 acc 0.9740 | val loss 0.3042 acc 0.8938 | 283s
+epoch 017/30 | train loss 0.0628 acc 0.9807 | val loss 0.3372 acc 0.9104 | 302s
+epoch 018/30 | train loss 0.0508 acc 0.9870 | val loss 0.2994 acc 0.9167 | 321s
+epoch 019/30 | train loss 0.0468 acc 0.9880 | val loss 0.2688 acc 0.9208 | 340s
+epoch 020/30 | train loss 0.0321 acc 0.9927 | val loss 0.2668 acc 0.9229 | 359s
+epoch 021/30 | train loss 0.0373 acc 0.9927 | val loss 0.2669 acc 0.9187 | 379s
+epoch 022/30 | train loss 0.0325 acc 0.9917 | val loss 0.2839 acc 0.9312 | 398s
+epoch 023/30 | train loss 0.0389 acc 0.9896 | val loss 0.2911 acc 0.9208 | 417s
+epoch 024/30 | train loss 0.0251 acc 0.9922 | val loss 0.2966 acc 0.9271 | 436s
+epoch 025/30 | train loss 0.0231 acc 0.9943 | val loss 0.2896 acc 0.9229 | 455s
+epoch 026/30 | train loss 0.0212 acc 0.9964 | val loss 0.2791 acc 0.9229 | 474s
+epoch 027/30 | train loss 0.0163 acc 0.9984 | val loss 0.2891 acc 0.9250 | 493s
+epoch 028/30 | train loss 0.0223 acc 0.9922 | val loss 0.2954 acc 0.9292 | 511s
+epoch 029/30 | train loss 0.0268 acc 0.9927 | val loss 0.2868 acc 0.9271 | 530s
+epoch 030/30 | train loss 0.0218 acc 0.9974 | val loss 0.2925 acc 0.9208 | 549s
+[e4_resnet18_pretrained_seed2] best val acc 0.9312 @ epoch 22 | final 0.9208 | TTA 0.9312 | 9.2 min

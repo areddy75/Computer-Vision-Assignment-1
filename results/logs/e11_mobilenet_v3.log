@@ -31,3 +31,4 @@ epoch 027/30 | train loss 0.5947 acc 0.9964 | val loss 0.2842 acc 0.9458 | 433s
 epoch 028/30 | train loss 0.6026 acc 0.9943 | val loss 0.2815 acc 0.9458 | 449s
 epoch 029/30 | train loss 0.5982 acc 0.9948 | val loss 0.2822 acc 0.9458 | 466s
 epoch 030/30 | train loss 0.6025 acc 0.9953 | val loss 0.2822 acc 0.9458 | 484s
+[e11_mobilenet_v3] best val acc 0.9458 @ epoch 16 | final 0.9458 | TTA 0.9458 | 8.1 min

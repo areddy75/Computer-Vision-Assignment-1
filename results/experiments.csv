@@ -11,3 +11,8 @@ e8_convnext_tiny,convnext_tiny,True,224,strong,30,0,27832432,0.9521,18,0.9354,0.
 e9_efficientnet_b0,efficientnet_b0,True,224,strong,30,0,4028044,0.9521,22,0.95,0.9458,0.9901,16.6
 e10_resnet50,resnet50,True,224,strong,30,0,23540816,0.9625,15,0.9458,0.9583,0.9958,26.8
 e11_mobilenet_v3,mobilenet_v3_large,True,224,strong,30,0,4222528,0.9458,16,0.9458,0.9458,0.9953,8.1
+e2b_scenecnn_lightaug,scenecnn,False,128,light,60,0,1177328,0.9021,53,0.8896,0.8938,0.9927,8.4
+e4_resnet18_pretrained_seed1,resnet18,True,224,strong,30,1,11184720,0.9312,24,0.9271,0.9208,0.9917,9.2
+e4_resnet18_pretrained_seed2,resnet18,True,224,strong,30,2,11184720,0.9312,22,0.9208,0.9312,0.9974,9.2
+e5_r18_labelsmooth_seed1,resnet18,True,224,strong,30,1,11184720,0.9375,27,0.9333,0.9396,0.9943,9.2
+e5_r18_labelsmooth_seed2,resnet18,True,224,strong,30,2,11184720,0.9479,22,0.9438,0.9563,0.9969,9.2
