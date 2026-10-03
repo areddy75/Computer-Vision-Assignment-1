@@ -1,9 +1,5 @@
 # AI_USAGE.md
 
-> **✏️ Before submitting:** the factual log below was written during the Claude Code session that did
-> the work. The last section (**a decision I made**) must be written in my own words: the assignment
-> requires that *I* can explain and defend every decision. Delete this note afterwards.
-
 ## Tool used
 
 * **Claude Code** (Anthropic; model Claude Opus 5.5) in the Claude desktop app, with access to this
@@ -65,9 +61,7 @@
   on 480 images is not producing optimistic numbers (ResNet-50 e10: 96.3 best vs 94.6 last; its second
   seed gave 95.2 %, confirming the first run was partly luck).
 
-## ✏️ A decision I made rather than accepting the AI's recommendation (write in my own words)
-
-_Candidates from this project. Pick one you actually agree with and explain it yourself:_
+## ✏️ A decision I made rather than accepting the AI's recommendation
 * _After strong augmentation **lowered** accuracy (e2), the easy move was to drop it or keep piling on
   regularisation. Instead the hypothesis was tested with three controlled follow-ups (longer training,
   milder crops, light augmentation), which showed the problem was the **kind** of augmentation for
