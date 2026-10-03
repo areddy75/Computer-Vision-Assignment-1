@@ -11,3 +11,8 @@ zicZMBnY
 checkpoints/*
 !checkpoints/README.md
 !checkpoints/final_convnext_tiny_fp16.pt
+
+# separate Colab notebook + its outputs (not part of this pipeline)
+Assignment1_CNN_Challenge.ipynb
+runs/
+/test2_predictions.csv
